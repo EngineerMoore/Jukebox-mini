@@ -3,3 +3,18 @@
 
 ###
 GET {{host}}/
+
+###
+GET {{host}}/users
+
+###
+GET {{host}}/users/1
+
+###
+POST {{host}}/users/1/playlists
+Content-Type: application/json
+
+{
+  "name": "Summer Fun",
+  "description": "A short description"
+}
