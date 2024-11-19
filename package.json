@@ -2,6 +2,9 @@
   "name": "36-jukebox_mini",
   "version": "1.0.0",
   "main": "index.js",
+  "prisma": {
+    "seed": "node prisma/seed.js"
+  },
   "directories": {
     "doc": "docs"
   },
@@ -15,6 +18,7 @@
     "prisma": "^5.22.0"
   },
   "dependencies": {
+    "@faker-js/faker": "^9.2.0",
     "@prisma/client": "^5.22.0"
   }
 }
